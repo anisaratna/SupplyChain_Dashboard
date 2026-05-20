@@ -19,7 +19,7 @@ I performed extensive data cleaning and transformation using **Power Query (M-Co
 
 | Data Cleaning Logic (Applied Steps) | Data Quality Audit (Sales Column) |
 |---|---|
-| ![Applied Steps](assets/applied_steps.png) | ![Data Quality](assets/data_quality.png) |
+| ![Applied Steps](Applied_Step.png) | ![Data Quality](Column_Quality.png) |
 | *Figure 1: Systematic ETL steps including locale calibration and custom logic.* | *Figure 2: 100% Data Validity achieved post-cleaning.* |
 
 ### 2. Data Modeling (Star Schema)
@@ -28,7 +28,7 @@ To optimize performance and scalability, I transformed the raw flat table (50+ c
 *   **Architecture:** 1 Fact Table (`Fact_Orders`) connected to 3 Dimension Tables (`Dim_Product`, `Dim_Customer`, `Dim_Date`) via one-to-many relationships.
 *   **Result:** A highly responsive model that minimizes memory usage and maximizes query speed.
 
-![Star Schema Model](assets/star_schema.png)
+![Star Schema Model](data_model_star_schema.png)
 *Figure 3: Professional Star Schema architecture for enterprise-level reporting.*
 
 ### 3. Advanced Analytics (DAX)
@@ -40,7 +40,7 @@ Engineered custom business measures using **DAX** to drive insights:
 ## Executive Dashboard Preview
 The final result is an interactive, multi-perspective dashboard designed for high-level decision-makers.
 
-![Executive Dashboard](assets/dashboard_final.png)
+![Executive Dashboard](dashboard_final.png)
 *Figure 4: Final Dashboard showing $12.0M Revenue and critical logistics KPIs.*
 
 ## Strategic Insights & Findings
